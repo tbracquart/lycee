@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <title>Ma page perso — Thibaut Bracquart</title>
+        <meta name="description" content="Présentation">
+
+        <link rel="stylesheet" href="styles/reset.css">
+        <link rel="stylesheet" href="styles/style.css">
+        <link rel="stylesheet" href="styles/responsive.css">
+		<script src="http://192.168.104.99/~nathan.vaillendet/webring/script.js" defer></script>
+    </head>
+
+    <body>
+
+        <header class="card move-card text-center">
+            <h1>Thibaut Bracquart</h1>
+
+            <nav class="card move-card">
+                <ul>
+                    <li><a href="index.php" class="btn">Accueil</a></li>
+                    <li><a href="perso.php" class="btn">Ma page perso</a></li>
+                    <li><a href="td.php" class="btn">Exercice TDs</a></li>
+                    <li><a href="tp.php" class="btn">TP html/php</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <article class="card move-card text-center">
+                <h2>Présentation</h2>
+
+                <section class="card move-card">
+                    <h3>Introduction</h3>
+                    <p>Je m’appelle Thibaut, j’ai 18 ans et je suis passionné par l’informatique et les nouvelles technologies. Je m’intéresse particulièrement à Linux, aux logiciels libres, et aux réseaux. J’aime comprendre comment les choses fonctionnent, expérimenter et créer mes propres projets.</p>
+                    <p>Je suis quelqu’un de curieux et toujours intéressé par l’idée d’apprendre de nouvelles choses. J’aime également partager ce que je découvre et contribuer, quand je le peux, à des projets open source.</p>
+                </section>
+                
+                <section class="card move-card">
+					<h3>Cursus scolaire</h3>
+					<p><strong>Baccalauréat : </strong>Baccalauréat professionnel Cybersécurité, Informatique et réseaux, ÉLectronique, obtenu le 7 juillet 2026.</p>
+
+					<table>
+						<caption>Cursus</caption>
+						<thead>
+							<tr>
+								<th>Année</th>
+								<th>Section</th>
+								<th>Établissement / ville</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>2024-2026</td>
+								<td>Terminale et première professionnelles Baccalauréat Professionnel Cybersécurité, Informatique et réseaux, ELectronique</td>
+								<td>Lycée Édouard Branly, 62200 Boulogne-sur-Mer</td>
+							</tr>
+							<tr>
+								<td>2023-2024</td>
+								<td>Seconde professionnelle Métiers des Transitions Numériques et Énergétiques</td>
+								<td>Lycée Édouard Branly, 62200 Boulogne-sur-Mer</td>
+							</tr>
+							<tr>
+								<td>2022-2023</td>
+								<td>Seconde professionnelle Maintenance des Systèmes de Production Connectée</td>
+								<td>Lycée Giraux Sannier, 62280 Saint-Martin-Boulogne</td>
+							</tr>
+							<tr>
+								<td>2021-2022</td>
+								<td>Troisième</td>
+								<td>Collège du Caraquet, 62240 Desvres</td>
+							</tr>
+						</tbody>
+					</table>
+				</section>
+				
+				<section class="card move-card">
+					<h3>Expériences professionnelles :</h3>
+					<table>
+						<thead>
+							<tr>
+								<th>Dates</th>
+								<th>Entreprise</th>
+								<th>Travail</th>
+								<th>Cadre (stage, int., vac.,…)</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>29 septembre 2025 - 17 octobre 2025</td>
+								<td>Nausicaá</td>
+								<td>Maintenance des systèmes informatique d'expositions, caisses et parfois équipements bureautique.</td>
+								<td>Stage</td>
+							</tr>
+							<tr>
+							<td>26 janvier 2026 - 13 février 2026</td>
+								<td>Nausicaá</td>
+								<td>Maintenance des systèmes informatique d'expositions, caisses et parfois équipements bureautique.</td>
+								<td>Stage</td>
+							</tr>
+							<tr>
+								<td>16 juin 2026 - 5 juillet 2026</td>
+								<td>Mairie de Saint-Martin-Boulogne</td>
+								<td>Maintenance d'équipements bureautiques et parfois de serveur.</td>
+								<td>Stage</td>
+							</tr>
+						</tbody>
+					</table>
+                </section>
+				
+				<section class="card move-card">
+					<h3>Informations liées au BTS SIO</h3>
+					<dl>
+						<dt>Groupe de TP et TD :</dt>
+						<dd>1</dd>
+						
+						<dt>Qualité :</dt>
+						<dd>Interne</dd>
+						
+						<dt>Comment la section a été connue ?</dt>
+						<dd>Recherches internet</dd>
+					</dl>
+				</section>
+				
+				<section class="card move-card">
+					<h3>Possession d'un PC</h3>
+					<dl>
+						<dt>Marque :</dt>
+						<dd>ASUS</dd>
+						
+						<dt>Modèle :</dt>
+						<dd>ZenBook 13</dd>
+					</dl>
+				</section>
+				
+				<section class="card move-card">
+					<h3>Connexion Internet</h3>
+					<dl>
+						<dt>Possession :</dt>
+						<dd>Oui</dd>
+						
+						<dt>FAI :</dt>
+						<dd>Free</dd>
+				</section>
+				
+				<section class="card move-card">
+					<h3>Connaissances en informatique</h3>
+					<table>
+						<thead>
+							<tr>
+								<th>Connaissances</th>
+								<th>Langages</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>NixOS</td>
+								<td>Logiciel/OS</td>
+							</tr>
+							<tr>
+								<td>Hyprland / Noctalia</td>
+								<td>Logiciel/UI Linux</td>
+							</tr>
+							<tr>
+								<td>Nix (un peu)</td>
+								<td>Langage</td>
+							</tr>
+							<tr>
+								<td>Bash (un peu)</td>
+								<td>Langage</td>
+							</tr>
+						</tbody>
+					</table>
+				
+				<section class="card move-card">
+					<h2>Mes projets</h2>
+					<p>Je fais parfois de petits projets personnels comme mon dépôt NixOS, ou encore quelques petites contributions à des projets libres.</p>
+                
+					<div class="grid-3-columns">
+						<article class="card move-card">
+							<h3>Profil GitHub</h3>
+							<p>J'ai un profil <strong>GitHub</strong> à cette page :</p>
+							<a class="btn" href="https://github.com/tbracquart">Lien vers mon profil GitHub</a>
+						</article>
+	
+						<article class="card move-card">
+							<h3>Configuration NixOS</h3>
+							<p>J'utilise <strong>NixOS</strong> comme système d'exploitation. Je publie ma configuration sur GitHub ici :</p>
+							<a class="btn" href="https://github.com/tbracquart/nixos-config">Lien vers mon dépôt nixos-config</a>
+						</article>
+
+						<article class="card move-card">
+							<h3>Contributions à des projets libres</h3>
+							<p>J'ai aussi fait une contribution à deux <strong>projets libres</strong> sur GitHub.</p>
+							<a class="btn" href="https://github.com/noctalia-dev/noctalia/pull/4305">Noctalia</a><br>
+							<a class="btn" href="https://github.com/NixOS/nixpkgs/pull/543442">Nixpkgs</a>
+						</article>
+					</div>
+
+				</section>
+            </article>
+        </main>
+
+        <footer class="card move-card text-center">
+            <p>&copy; 2026 Thibaut Bracquart</p>
+			<div id="webring" class="grid-3-columns"></div>
+        </footer>
+
+    </body>
+</html>

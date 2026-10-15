@@ -1,0 +1,213 @@
+/* ==========================================================================
+   SECTION 1 : CONFIGURATIONS GLOBALES & POLICES
+   ========================================================================== */
+
+@view-transition {
+    navigation: auto;
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../assets/fonts/fira-sans-v18-latin-regular.woff2') format('woff2');
+}
+
+
+/* ==========================================================================
+   SECTION 2 : BALISES GENERALES (Règles par défaut du site)
+   ========================================================================== */
+
+html {
+    font-family: 'Fira Sans', sans-serif;
+	color: #FFFFFF;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 80rem;
+    min-height: 100vh;
+    margin: 0 auto;
+    background: url('../assets/images/fond.jpg') no-repeat center / cover fixed;
+	transition: transform 0.1s ease;
+}
+
+body:hover {
+    transform: scale(1.0125);
+}
+
+main {
+    flex: 1;
+}
+
+img {
+    border-radius: 2rem;
+    max-width: 100%;
+    height: auto;
+	transition: transform 0.1s ease;
+}
+
+img:hover {
+    transform: scale(1.025);
+}
+
+/* ==========================================================================
+   SECTION 3 : POSITIONNEMENT & STRUCTURE (Layouts)
+   ========================================================================== */
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    list-style: none;
+}
+
+.grid-3-columns  {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+	gap: 0rem;
+    transform: scale(1.05);
+}
+
+/* ==========================================================================
+   SECTION 4 : DESIGN DES COMPOSANTS (Fonds, Boutons, Tableaux)
+   ========================================================================== */
+
+/* --- LE LOOK DES CARTES (Fonds transparents floutés) --- */
+.card {
+    background-color: #FFFFFF11;
+	border: 1px solid #D3D3D333;
+    border-radius: 2rem;
+    padding: 1rem;
+    backdrop-filter: blur(2rem);
+    margin: 2rem;
+}
+
+.move-card {
+	transition: transform 0.1s ease;
+}
+
+.move-card:hover {
+    transform: scale(1.025);
+	background-image: linear-gradient(175deg, #FFFFFF25, #FFFFFF00);
+}
+
+/* --- L'ALIGNEMENT SPECIFIQUE DE CERTAINES CARTES --- */
+.text-center {
+    text-align: center;
+}
+
+/* --- LES BOUTONS ET INTERACTIONS --- */
+nav li {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    display: block;
+    padding: 1rem;
+    font-size: 1rem;
+    text-decoration: none;
+    border-radius: 2rem;
+    background-color: #FCEEFAAA;
+    transition: transform 0.1s ease;
+    backdrop-filter: blur(2rem);
+}
+
+.btn:hover {
+    background-color: #ECEEFAAA;
+    transform: scale(1.05);
+	color: #00D68A;
+}
+
+.btn:active {
+    transform: scale(0.95);
+}
+
+/* --- LES PROPRIETES --- */
+
+.property-details {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 0.5rem 2rem;
+    text-align: left;
+    margin: 1.5rem 0;
+}
+
+.property-details dt {
+    font-weight: bold;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 0.75rem 0;
+}
+
+.property-details dd {
+    margin: 0;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 0.75rem 0;
+}
+
+/* --- LES TABLEAUX --- */
+
+table {
+  border-collapse: collapse;
+}
+
+td, th {
+  border: 1px solid white;
+  padding: 8px;
+}
+
+/* --- WEBRING DE NATHAN */
+
+
+/* ==========================================================================
+   SECTION 5 : TYPOGRAPHIE & ADAPTATIONS TEXTUELLES
+   ========================================================================== */
+
+header h1 {
+    font-size: 2.25rem;
+}
+
+header img {
+    width: 50%;
+}
+
+main h1 {
+	font-size: 1.75rem;
+	margin: 1.25rem;
+}
+
+main h2 {
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+
+main h3 {
+    font-size: 1.25rem;
+    margin: 0.75rem;
+}
+
+main p,
+address {
+    font-size: 1rem;
+    margin: 1rem;
+}
+
+main img {
+    max-width: 100%;
+}
+
+address {
+    font-style: normal;
+}
+
+footer {
+	margin-top: auto; 
+}
+
+footer p {
+    font-size: 1rem;
+}
