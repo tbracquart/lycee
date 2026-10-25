@@ -6,7 +6,6 @@ Site web personnel réalisé dans le cadre de mes études en informatique.
 
 - HTML
 - CSS
-- PHP
 
 ## 📁 Contenu
 
