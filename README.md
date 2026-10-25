@@ -1,4 +1,4 @@
-# Portfolio
+# Lycée
 
 Site web personnel réalisé dans le cadre de mes études en informatique.
 
